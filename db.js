@@ -1,7 +1,7 @@
-const overTen = require("./data/overTen.json");
-const underTen = require("./data/underTen.json");
+import overTen from "./data/overTen.json";
+import underTen from "./data/underTen.json";
 
-module.exports = {
+export default {
   overTen,
   underTen
 }
